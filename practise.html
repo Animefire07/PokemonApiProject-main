@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practise Page🤺</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="uebung" onclick="doSomething()">Do Something!</button>
+
+    <script>
+        // fang der Knopf aus ihre ID
+        const actionButton = document.getElementById("uebung");
+
+        actionButton.addEventListener("click", () => {
+            // finde jetzt wie der Body tag mit JS gefangen werden kann für ein neuen hintergrund farbe
+            document.body.style.backgroundColor = "red";
+        })
+    </script>
+
+    <script src="pokepoke.js"></script>
+</body>
+
+</html>
